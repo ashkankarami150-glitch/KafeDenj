@@ -1,0 +1,1 @@
+fetch("menu.json").then(r=>r.json()).then(d=>{let m=document.getElementById("menu");d.forEach(i=>m.innerHTML+=`<div class="card"><span>${i.name}</span><b>${i.price}</b></div>`);});
