@@ -1,1 +1,0 @@
-const m=document.getElementById("m"),q=document.getElementById("q");function r(){m.innerHTML="";items.filter(x=>x.n.includes(q.value)).forEach(x=>m.innerHTML+=`<div class=i><b>${x.n}</b><br>${x.p} تومان</div>`)}q.oninput=r;r();
